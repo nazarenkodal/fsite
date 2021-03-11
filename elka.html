@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head >
+<title>Ёлка</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="elkacss.css"/>
+<script language="JavaScript" type="text/javascript" src="js/balls.js"></script>
+<script language="JavaScript" type="text/javascript" src="js/droppable.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/sunny/jquery-ui.css">
+<style type="text/css">
+#draggable {font-size: x-large; border: thin solid black;
+width: 5em; text-align: center; padding:10px}
+</style>
+<script type="text/javascript">
+$(function() {
+
+$('#draggable').draggable();
+
+});
+</script>
+</head>
+<body>
+<div id="draggable" class="ui-widget ui-corner-all ui-state-error">
+</div>
+<section id="sectionred">
+<button id="plusred">+</button>
+<button id="minusred">-</button>
+</section>
+
+<div id="red"></div>
+<section id="sectionblue">
+<button id="plusblue">+</button>
+<button id="minusblue">-</button>
+</section>
+
+<div id="blue"></div>
+<section id="sectionwhite">
+<button id="pluswhite">+</button>
+<button id="minuswhite">-</button>
+</section>
+
+<div id="white"></div>
+<section id="sectionorange">
+<button id="plusorange">+</button>
+<button id="minusorange">-</button>
+</section>
+<div id="orange"></div>
+
+<section id="sectionpurple">
+<button id="pluspurple">+</button>
+<button id="minuspurple">-</button>
+</section>
+<div id="purple"></div>
+
+<div class="tree">
+<img src="tree.png" alt="elka" class="dragtree">
+</div>
+
+</body>
+</html>
